@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title><%= title %></title>
+ <link rel="stylesheet" href="css/viewstyles.css">
+</head>
+<body>
+<div class="div_header">
+<img src="img/nodejs_logo.png" alt="Logo">
+<h1><%= title %></h1>
+</div>
+<div class="div_container">
+<form method = "post" id="loginForm">
+First Name: <input type="text" size="50" placeholder="Enter your First Name" name="firstname"><br />
+Last Name: <input type="text" size="50" placeholder="Enter your Last Name" name="lastname"><br />
+Email : 	<input type="text" size="50" value="<%= email %>" ><br />
+Major: 	<input type="text" size="50" placeholder="What is your Major?" name="major"><br />
+Favorite Sport: <input type="text" size="50" placeholder="Your favorite language?" name="major"><br />	
+Comments: <br/><textarea type="text" name="comment" placeholder="Write your comments here" cols="51" rows="5"></textarea><br/>
+	
+	<input type="submit" value="Submit" name="submit">
+
+</form>
+</div>
+</body>
+
+</html>

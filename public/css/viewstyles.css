@@ -1,0 +1,38 @@
+﻿form {
+    border: 3px solid #f1f1f1;
+}
+
+.div_container {
+    width: 30%;
+    border: 1px solid #ccc;
+    background-color: lavender;
+    margin: 0 auto;
+}
+.div_header {
+    width: 30%;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+input[type=text], input[type=password],textarea[typeof=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
